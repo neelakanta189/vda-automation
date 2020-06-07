@@ -1,6 +1,5 @@
 ---
  - hosts: vda
-   become: true
    gather_facts: no
    roles:
     - vda
